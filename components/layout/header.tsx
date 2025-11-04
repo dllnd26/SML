@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useState, useEffect } from "react";
-import { Menu, X, Home, Trophy, Calendar, Users, Newspaper, Info, Mail, Facebook, Twitter, Instagram, Youtube } from "lucide-react";
+import { Menu, X, Home, Trophy, Calendar, Users, Newspaper, Info, Mail, Facebook, Twitter, Instagram, Youtube, ShoppingBag } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
@@ -15,6 +15,7 @@ const navigation = [
   { name: "Fixtures & Results", href: "/matches", icon: Calendar },
   { name: "Teams", href: "/teams", icon: Users },
   { name: "News", href: "/news", icon: Newspaper },
+  { name: "Shop", href: "/shop", icon: ShoppingBag },
   { name: "About", href: "/about", icon: Info },
   { name: "Contact", href: "/contact", icon: Mail },
 ];
